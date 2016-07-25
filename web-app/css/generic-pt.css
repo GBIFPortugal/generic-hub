@@ -1,0 +1,279 @@
+body {
+    background-color: #CCC !important;
+}
+        
+.header {
+    margin-top: 25px;
+    margin-left: 6%;
+    margin-right: 6%;
+    background: #FFF url('../images/headbackground101.jpg') no-repeat right top;
+
+}
+
+#site-slogan {
+    margin-left: 100px;
+    margin-top: -65px;
+    position:absolute;
+    color:#CCC;
+}
+
+#site-name {
+    margin-left: 100px;
+    margin-top: -45px;
+    position:absolute;
+    color:#CCC;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+}
+
+#site-name a:focus, #site-name a:visited {
+    color:#CCC;
+    text-decoration: none;
+}
+
+#site-name a:hover {
+    color: #007D24;
+    text-decoration: underline;
+}
+
+
+#main-content #searchInfoRow #customiseFacetsButton > .dropdown-menu {
+    background-color: #ffffff;
+}
+
+
+#content .nav-tabs > li.active > a {
+    background-color: #ffffff;
+}
+
+
+body > #main-content {
+    margin-left: 6%;
+    margin-right: 6%;
+    background-color: #ffffff;
+}
+
+.container-fluid-navbar{
+    padding-left: 0px !important;
+}
+
+
+.navbar {
+    margin-left: 6%;
+    margin-right: 6%;
+    background-color: #999B9E;
+    height: 39px !important;
+}
+
+
+
+/* menu items */
+
+/* set the background of the menu items to gray and default color to white */
+.navbar .nav > li > a {
+    background-color:  #999B9E;
+    color: #FFFFFF !important;
+    width:89px !important;
+    height: 19px !important;
+    font-weight: bold;
+    text-align: center;
+    font-family: "PT Sans",sans-serif;
+    text-shadow: none !important;
+}
+
+
+/* set hover and focus to lightblue */
+    .navbar .nav > li > a:focus ,
+    .navbar .nav > li > a:hover {
+    background-color: rgb(2,162,46) !important;
+    color: #FFFFFF !important;
+
+   
+}
+
+/* set active item to darkgreen */
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+    background-color: rgb(2,162,46) !important; 
+    color: #FFFFFF !important;
+}
+
+/*menu funções ala*/
+
+.slogan{
+	margin-top: 0px;
+}
+
+.navbar2{
+    height: 50px !important;
+    margin-top: 20px;
+    margin-bottom: 0px !important; 
+    /*border-radius: 0px !important;*/
+}
+
+.navbar-ala{
+    background: #000000 !important;
+    opacity: .50;
+    border: 0px;
+    border-radius: 0px !important;
+    padding-right: 0px !important;
+}
+
+.ala-collapse{
+    clear: both;
+    float: right;
+}
+
+#navbar1 > li {
+
+}
+
+#navbar1 li a{
+    color: #FFFFFF;
+    width: auto !important;
+    background: none;
+    font-variant: small-caps;
+    height: auto;
+    line-height: 30px !important;
+}
+
+#navbar1 > li > a:focus ,
+#navbar1> li > a:hover {
+    background: rgb(2,162,46) !important;
+    color: #FFFFFF !important;
+    height: auto !important ;
+    line-height: 30px !important;
+}
+
+#navbar1 > .active > a,
+#navbar1 > .active > a:hover,
+#navbar1 > .active > a:focus {
+    background-color: rgb(2,162,46) !important; 
+    color: #FFFFFF !important;
+    height: auto !important ;
+}
+
+.navbar-brand{
+    line-height: 50px;
+    vertical-align: middle;
+    font-variant: small-caps;
+    padding-left: 0px;
+    color: #FFFFFF !important;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "PT Sans",sans-serif;
+}
+
+.navbar-brand a, .navbar-brand a:hover, .navbar-brand a:focus, .navbar-brand a:active{
+    text-decoration: none !important;
+}
+
+#main-content{
+    margin-top: 0px !important;
+}
+
+.lowerbar{
+	margin-left: 6% !important;
+	margin-right: 6% !important;
+	background: #808080;
+	margin-top: 20px;
+	padding: 0px;
+	color: #FFFFFF;
+	font-family: "PT Sans",sans-serif;
+}
+
+@media (min-width: 768px) {
+    .lowerbar .span1 {
+        width: 10%;
+    }
+}
+@media (min-width: 992px) {
+    .lowerbar .span1 {
+        width: 10%;
+    }
+}
+@media (min-width: 1200px) {
+    .lowerbar .span1 {
+        width: 10%;
+    }
+}
+
+.lowerbar h2{
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.lowerbar h2 a{
+	color: #FFFFFF;
+}
+
+.lowerbar p{
+	font-size: 11px;
+}
+
+.lowerbar p a{
+	color: #FFFFFF;
+}
+
+.lowerbar ul{
+	margin-left: 0px;
+	padding-left: 0px;
+
+}
+
+.lowerbar li{
+	padding-left: 0px;
+	font-size: 11px;
+	list-style: outside none none;
+	line-height: 14px;
+}
+
+.lowerbar li a{
+	color: #FFFFFF;
+}
+
+/*Secção parceiros*/
+.partners{
+    margin-top: 0px;
+    margin-left: 6%;
+    margin-right: 6%;
+    font-family: Tahoma,Verdana,Arial,Helvetica,"Bitstream Vera Sans",sans-serif;
+    font-size: 12px;
+    color: #FFF;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background: #808080;
+}
+
+.credits{
+	margin-left: 6%;
+	margin-right: 6%;
+	display: block;
+	/*margin: 20px;*/
+	padding: 5px 20px; 
+	background: #696868;
+	color: #FFFFFF;
+}
+
+.credits a{
+	color: #5DB2FC;
+}
+
+.span2 img{
+    height: 50px;
+}
+
+#footer {
+    margin-left: 6%;
+    margin-right: 6%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*border-top: 1px solid #CCC;*/
+    font-size: 12px;
+    background-color: #434343;
+    color: white;
+
+}
