@@ -30,7 +30,7 @@ println "default_config = ${default_config}"
 /******************************************************************************\
  *  SKINNING
 \******************************************************************************/
-skin.layout = 'generic'
+skin.layout = 'generic-pt'
 skin.orgNameLong = "Generic Data Portal"
 skin.orgNameShort = "Occurrences"
 // whether crumb trail should include a home link that is external to this webabpp - ala.baseUrl is used if true
