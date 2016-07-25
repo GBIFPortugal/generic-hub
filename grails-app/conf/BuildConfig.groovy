@@ -53,5 +53,6 @@ grails.project.dependency.resolution = {
         runtime ":resources:1.2.8"
         runtime ":cached-resources:1.0"
         runtime ":biocache-hubs:0.73"
+        compile ":lang-selector:0.3"
     }
 }
