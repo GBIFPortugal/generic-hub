@@ -112,7 +112,7 @@
         <ul class="nav pull-right" id="navbar1">
           <li><a href="/index.html"><g:message code="ala.menu.home"/></a></li>
           <li><a href="/generic-hub"><g:message code="ala.menu.occurrences"/></a></li>
-          <li><a href="/species.html"><g:message code="ala.menu.data"/></a></li>
+          <!--<li><a href="/species.html"><g:message code="ala.menu.data"/></a></li>-->
           <li><a href="/generic-hub/explore/your-area?default=true"><g:message code="ala.menu.location"/></a></li>
           <li><a href="/collectory/datasets"><g:message code="ala.menu.datasets"/></a></li>
           <li><a href="/collectory"><g:message code="ala.menu.publishers"/></a></li>
