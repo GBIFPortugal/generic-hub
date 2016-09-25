@@ -277,3 +277,10 @@ body > #main-content {
     color: white;
 
 }
+
+@media (min-width: 1200px) {
+  .span12 {
+    width: 970px;
+  }
+}
+
