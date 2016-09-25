@@ -174,6 +174,22 @@ body > #main-content {
     margin-top: 0px !important;
 }
 
+#main-content > container-fluid > a, a:link, a:active{
+  color: #007d24;
+}
+
+#main-content > container-fluid > a, a:hover{
+  color: #005418;
+}
+
+#advancedSearchLink > a, a:link, a:active{
+  color: #007d24;
+}
+
+#advancedSearchLink > a, a:hover{
+  color: #005418;
+}
+
 .lowerbar{
 	margin-left: 6% !important;
 	margin-right: 6% !important;
@@ -183,6 +199,7 @@ body > #main-content {
 	color: #FFFFFF;
 	font-family: "PT Sans",sans-serif;
 }
+
 
 @media (min-width: 768px) {
     .lowerbar .span1 {
@@ -287,3 +304,4 @@ body > #main-content {
 .tab-content{
   margin-bottom: 15px !important;
 }
+
