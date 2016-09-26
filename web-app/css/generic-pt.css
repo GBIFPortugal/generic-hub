@@ -174,7 +174,7 @@ body > #main-content {
     margin-top: 0px !important;
 }
 
-#main-content > container-fluid > a, a:link, a:active{
+#main-content > container-fluid > a, a:link, a:active, a:visited{
   color: #007d24;
 }
 
@@ -182,7 +182,7 @@ body > #main-content {
   color: #005418;
 }
 
-#advancedSearchLink > a, a:link, a:active{
+#advancedSearchLink > a, a:link, a:active, a:visited{
   color: #007d24;
 }
 
