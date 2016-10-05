@@ -9,7 +9,7 @@
     %{--<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">--}%
 
     <title><g:layoutTitle /></title>
-    <r:require modules="bootstrap2, hubCore, pt" />
+    <r:require modules="bootstrap, hubCore, pt" />
     <r:script disposition='head'>
         // initialise plugins
         jQuery(function(){

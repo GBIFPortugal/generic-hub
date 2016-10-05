@@ -15,4 +15,12 @@ modules = {
         resource url: [dir:'css', file:'generic-pt.css']
     }
 
+    bootstrap {
+        dependsOn 'jquery'
+        resource url: [dir:'bootstrap/css', file:'bootstrap.min.css', plugin: 'biocache-hubs'],attrs: [ media: 'all' ]
+        resource url: [dir:'bootstrap/css', file:'bootstrap-responsive.min.css', plugin: 'biocache-hubs'],attrs: [ media: 'all' ]
+        resource url: [dir:'bootstrap/js', file:'bootstrap.js', plugin:'biocache-hubs'], disposition: 'head'
+
+    }
+
 }
