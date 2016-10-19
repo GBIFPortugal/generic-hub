@@ -10,16 +10,6 @@
 
     <title><g:layoutTitle /></title>
     <r:require modules="bootstrap, hubCore, pt" />
-    <script>
-       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-       ga('create', 'UA-41841769-3', 'auto');
-       ga('send', 'pageview');
-
-    </script>
     <r:script disposition='head'>
         // initialise plugins
         jQuery(function(){
@@ -97,7 +87,8 @@
     </div>
     <div>
       <ul class="nav navbar pull-right"> 
-        <li><langs:selector langs="pt_PT, en"/></li>
+        %{--<li><langs:selector langs="pt_PT, en"/></li>--}%
+            <locale:switchLocale />
       </ul>
     </div>
   </div>
@@ -121,11 +112,11 @@
       <div class="nav-collapse collapse ala-collapse">
         <ul class="nav pull-right" id="navbar1">
           <li><a href="/index.html"><g:message code="ala.menu.home"/></a></li>
-          <li><a href="/generic-hub"><g:message code="ala.menu.occurrences"/></a></li>
+          <li><a href="${grailsApplication.config.grails.serverURL}"><g:message code="ala.menu.occurrences"/></a></li>
           <!--<li><a href="/species.html"><g:message code="ala.menu.data"/></a></li>-->
-          <li><a href="/generic-hub/explore/your-area?default=true"><g:message code="ala.menu.location"/></a></li>
-          <li><a href="http://metadados.gbif.pt/collectory/datasets"><g:message code="ala.menu.datasets"/></a></li>
-          <li><a href="http://metadados.gbif.pt/collectory"><g:message code="ala.menu.publishers"/></a></li>
+          <li><a href="${grailsApplication.config.grails.serverURL}/explore/your-area?default=true"><g:message code="ala.menu.location"/></a></li>
+          <li><a href="${grailsApplication.config.collections.baseUrl}/datasets"><g:message code="ala.menu.datasets"/></a></li>
+          <li><a href="${grailsApplication.config.collections.baseUrl}"><g:message code="ala.menu.publishers"/></a></li>
         </ul>
       </div>
  
@@ -269,4 +260,14 @@ com o apoio da <a href="http://www.fct.pt" title="Fundação para a Ciência e a
 <!-- JS resources-->
 <r:layoutResources/>
 </body>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-41841769-3', 'auto');
+    ga('send', 'pageview');
+
+</script>
 </html>
