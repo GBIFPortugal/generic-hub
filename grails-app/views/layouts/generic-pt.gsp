@@ -269,7 +269,7 @@ com o apoio da <a href="http://www.fct.pt" title="Fundação para a Ciência e a
 
     ga('create', 'UA-41841769-3', 'auto');
     ga('send', 'pageview');
-<!--teste-->
+
 </script>
 </body>
 </html>
