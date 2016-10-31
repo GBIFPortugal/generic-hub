@@ -133,7 +133,7 @@
   <div class="span1"><h2>Portais de dados GBIF</h2>
     <p>Global: <span>
     <a href="http://www.gbif.org/occurrence">GBIF.ORG</a></span></p>
-    <p>Suportado pelo ALA:</p>
+    <p>Suportados pelo ALA:</p>
     <ul>
       <!-- <li><a href="#">Argentina</a></li> -->
       <li><a href="http://www.ala.org.au/">Austrália</a></li>
@@ -147,6 +147,7 @@
     <p>Outros portais</p>
     <ul>
       <li><a href="http://gbif.sibbr.gov.br/explorador/pt/busca">Brasil (SiBBr)</a></li>
+      <li><a href="http://http://www.enciclovida.mx">México</a></li>
       <li><a href="http://gis.biomap.pl/?lang=en">Polónia</a></li>
     </ul>
   </div>
@@ -259,7 +260,7 @@ com o apoio da <a href="http://www.fct.pt" title="Fundação para a Ciência e a
 
 <!-- JS resources-->
 <r:layoutResources/>
-</body>
+
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -270,4 +271,5 @@ com o apoio da <a href="http://www.fct.pt" title="Fundação para a Ciência e a
     ga('send', 'pageview');
 
 </script>
+</body>
 </html>
