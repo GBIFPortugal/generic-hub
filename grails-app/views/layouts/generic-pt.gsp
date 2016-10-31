@@ -147,7 +147,7 @@
     <p>Outros portais</p>
     <ul>
       <li><a href="http://gbif.sibbr.gov.br/explorador/pt/busca">Brasil (SiBBr)</a></li>
-      <li><a href="http://http://www.enciclovida.mx">México</a></li>
+      <li><a href="http://www.enciclovida.mx">México</a></li>
       <li><a href="http://gis.biomap.pl/?lang=en">Polónia</a></li>
     </ul>
   </div>
