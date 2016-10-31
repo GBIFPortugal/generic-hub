@@ -259,8 +259,8 @@ com o apoio da <a href="http://www.fct.pt" title="Fundação para a Ciência e a
 
 <!-- JS resources-->
 <r:layoutResources/>
-</body>
-<script>
+
+<script type="text/javascript">
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -270,4 +270,5 @@ com o apoio da <a href="http://www.fct.pt" title="Fundação para a Ciência e a
     ga('send', 'pageview');
 
 </script>
+</body>
 </html>
